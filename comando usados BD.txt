@@ -1,0 +1,13 @@
+CREATE TABLE login (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(50),
+    sobrenome VARCHAR(50),
+    username VARCHAR(50) UNIQUE NOT NULL,
+    userpassword VARCHAR(50) NOT NULL
+);
+
+
+INSERT INTO login (nome, sobrenome, username, userpassword) VALUES
+('1000', 'Smith', 'john', admin '1234'),
+('1002´, 'Bill', 'Denovan', 'billd', '12345'),
+('1234','Fernanda', 'Lopes', 'fefe', '2324');
